@@ -1,0 +1,112 @@
+/*General Page Styling */
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    margin: 0;
+    line-height: 16px;
+    letter-spacing: 0;
+  }
+
+  h1{
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 40px;
+  }
+
+  h2{
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+
+  h3{
+     font-weight: bold; 
+  }
+
+  
+  li{
+    display: list-item;
+    list-style: circle;
+  }
+  
+  button{
+      color: white;
+      background-color: rgba(250, 152, 114, 0.767);
+      text-align: center;
+      padding: 10px;
+      padding-left: 50px;
+      padding-right: 50px;
+      border: none;
+     
+  }
+
+  img{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    max-height: auto;
+    padding: 10px;
+    height: auto;
+  }
+
+  figcaption{
+      text-align: center;
+  }
+/* Content Styling*/
+
+.cat-gets-treat{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.our-treat{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(211, 211, 211, 0.808);
+}
+
+.cat-high-five{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.pet_approved{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.checkmark li{
+    display: list-item;
+    list-style: circle;
+
+}
+/* Responsive Styling*/
+
+@media only screen and (max-width: 1048px) {
+    .photos img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+
+  
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        button {
+          display: inline;
+          width: 40%;
+          position: fixed;
+          bottom: 0;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+  
+  
